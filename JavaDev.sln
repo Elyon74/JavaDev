@@ -5,10 +5,12 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F750A68F-DC52-4222-AF60-C78F5187D485}"
 	ProjectSection(SolutionItems) = preProject
+		contact.html = contact.html
 		index.css = index.css
 		index.html = index.html
 		main.js = main.js
 		main2.js = main2.js
+		roadmap.html = roadmap.html
 	EndProjectSection
 EndProject
 Global
