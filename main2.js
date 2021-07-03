@@ -16,7 +16,7 @@ function datee() {
 	console.log("dt.getHours()=" + hours);
 	console.log("dt.getMinutes()=" + min);
 	document.write(txtAccueil);
-	var date2 = "<BR>Votre navigateur indique que nous somme le " + day + " " + tab_mois[date.getMonth()] + " " + year + " " + "il est : " + hours + "h" + min;
+	var date2 = "<BR>Nous sommes le " + day + " " + tab_mois[date.getMonth()] + " " + year + " " + "il est : " + hours + "h" + min;
 	return date2;
 }
 // Execution de la fonction
