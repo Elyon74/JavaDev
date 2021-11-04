@@ -6,16 +6,35 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F750A68F-DC52-4222-AF60-C78F5187D485}"
 	ProjectSection(SolutionItems) = preProject
 		contact.html = contact.html
-		index.css = index.css
+		games.html = games.html
 		index.html = index.html
-		main.js = main.js
-		main2.js = main2.js
 		roadmap.html = roadmap.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{72AFA9C3-899B-49CE-AE68-0F69F1D07B90}"
+	ProjectSection(SolutionItems) = preProject
+		css\index.css = css\index.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{81C7EF29-3055-4D10-BF81-D8B0B1000A9F}"
+	ProjectSection(SolutionItems) = preProject
+		js\main.js = js\main.js
+		js\main2.js = js\main2.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{AE4A2C83-4792-43E6-B1B2-86C2E89DB049}"
+	ProjectSection(SolutionItems) = preProject
+		images\banner.jpg = images\banner.jpg
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72AFA9C3-899B-49CE-AE68-0F69F1D07B90} = {F750A68F-DC52-4222-AF60-C78F5187D485}
+		{81C7EF29-3055-4D10-BF81-D8B0B1000A9F} = {F750A68F-DC52-4222-AF60-C78F5187D485}
+		{AE4A2C83-4792-43E6-B1B2-86C2E89DB049} = {F750A68F-DC52-4222-AF60-C78F5187D485}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B479AB09-8A17-4709-9390-A3C99A0027D0}
